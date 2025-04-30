@@ -1,0 +1,127 @@
+.interaction-section,
+.api-details-section,
+.maintenance-details,
+#travel-planner-section .travel-form {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.api-details-section h3,
+.maintenance-details h3,
+#travel-planner-section h2 {
+    margin-top: 10px; 
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+
+#detalhes-extras-api,
+#previsao-tempo-resultado {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    min-height: 40px; 
+}
+#detalhes-extras-api p,
+#previsao-tempo-resultado p {
+    margin: 5px 0;
+}
+#detalhes-extras-api strong,
+#previsao-tempo-resultado strong {
+    color: #0056b3;
+}
+
+
+#travel-planner-section .travel-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff; 
+    border: none;
+    padding: 0; 
+}
+#travel-planner-section label {
+    margin-bottom: 0; 
+    font-weight: normal;
+}
+#destino-viagem {
+    flex-grow: 1; 
+    margin-bottom: 0;
+    min-width: 150px;
+}
+#verificar-clima-btn {
+  
+     padding: 10px 15px;
+     margin: 0; 
+}
+
+
+.api-key-warning {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    color: #856404;
+    border-radius: 4px;
+    font-size: 0.9em;
+    text-align: center;
+}
+.api-key-warning strong {
+    color: #dc3545;
+
+
+#lista-garagem button {
+    padding: 6px 10px; 
+    font-size: 0.85rem;
+    margin-left: 5px; 
+    vertical-align: middle;
+}
+#lista-garagem .btn-ver-extras { 
+    background-color: #17a2b8; 
+    color: white;
+}
+#lista-garagem .btn-ver-extras:hover {
+    background-color: #117a8b;
+}
+
+
+#detalhes-veiculo-botoes .btn-especifico {
+    margin-top: 5px;
+}
+
+
+@media (max-width: 600px) {
+    #travel-planner-section .travel-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+     #destino-viagem, #verificar-clima-btn {
+         width: 100%;
+         box-sizing: border-box; 
+     }
+     #verificar-clima-btn {
+        margin-top: 10px;
+     }
+     #lista-garagem li {
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+     }
+      #lista-garagem li p {
+         width: 100%;
+         margin-bottom: 5px;
+      }
+       #lista-garagem li div.botoes-container { 
+           display: flex;
+           gap: 5px;
+       }
+
+}
+}
